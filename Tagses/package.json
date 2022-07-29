@@ -8,6 +8,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "@vue/cli-service": "^5.0.8",
     "eslint-plugin-prettier-vue": "^4.2.0",
     "vue": "^3.2.37"
   },

@@ -1,7 +1,16 @@
-<script setup></script>
+<script>
+import InputTag from "./components/InputTag.vue";
+export default {
+  components: {
+    InputTag,
+  },
+};
+</script>
 
 <template>
-  <div class="derty"></div>
+  <main>
+    <InputTag />
+  </main>
 </template>
 
-<style scoped></style>
+<style></style>

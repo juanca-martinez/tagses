@@ -12,6 +12,7 @@ export default {
         if (!this.tags.some((t) => t === this.currentValue.toLowerCase())) {
           this.tags.push(this.currentValue);
           this.currentValue = "";
+          console.log(this.tags);
           return;
         }
       }
