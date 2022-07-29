@@ -29,5 +29,7 @@ coverage
 
 .eslintrc.js
 .prettierrc.js
+.prettierignore
+
 vite.config.js
 package-lock.json
