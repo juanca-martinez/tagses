@@ -26,3 +26,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+.eslintrc.js
+.prettierrc.js
+vite.config.js
+package-lock.json

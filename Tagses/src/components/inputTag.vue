@@ -4,6 +4,7 @@ export default {
     return {
       currentValue: "",
       tags: [],
+      derty: "demian",
     };
   },
   methods: {
@@ -25,8 +26,8 @@ export default {
       this.tags = this.tags.filter((item) => item !== text);
     },
   },
-  monted() {
-    console.log("Componente creado correctamente");
+  mounted() {
+    console.log(this.tags);
   },
 };
 </script>
